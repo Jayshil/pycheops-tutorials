@@ -19,7 +19,6 @@ inc = np.arccos(bb/aa)*(180/np.pi)
 params.inc = inc
 params.ecc = 0.
 params.w = 90.
-params.limb_dark = 'non-linear'
 params.limb_dark = 'quadratic'
 params.u = [0.4951, 0.0545]
 
